@@ -1,0 +1,50 @@
+.description-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 100px;
+    padding: 2rem;
+    background-color: #e2e2e2;
+}
+
+.description-content {
+    max-width: 400px;
+    text-align: center;
+}
+
+.product-title {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 1rem;
+}
+
+.product-description {
+    font-size: 1.1rem;
+    color: #666;
+    margin-bottom: 1.5rem;
+    line-height: 1.6;
+}
+
+.product-price {
+    font-size: 2rem;
+    font-weight: 600;
+    color: #E2BDB6;
+    margin-bottom: 1.5rem;
+}
+
+.buy-now-button {
+    background-color: #e74c3c;
+    color: white;
+    font-size: 1.1rem;
+    font-weight: bold;
+    padding: 0.8rem 2rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.buy-now-button:hover {
+    background-color: #c0392b;
+}
